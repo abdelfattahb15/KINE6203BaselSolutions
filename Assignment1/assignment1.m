@@ -52,6 +52,7 @@ averageAnswer = mean(A)
 % 5. What command would return a list of all of the available functions in 
 % the image processing toolbox? 
 
+web()
 
 
 % 6. On the line below figure, write a command to draw a graph of 
@@ -249,14 +250,16 @@ maximum = max(n);
 
 % The following values are the base and height values of the trapezoied in
 % inches.
+
 base1 = 2;
 base2 = 5;
 height = 4;
 
-% With the listed variables, we can now calculated the area of the
+% With the listed variables, we can now calculate the area of the
 % trapezoid and assign the value of the result  to a variable called
 % trapArea
-trapArea = height*((base1 + base2)/2)
+
+trapArea = height*((base1 + base2)/2);
 
 
 
@@ -281,7 +284,7 @@ z = input('Input the z value: ');
 
 u = [x y z]/sqrt(x^2 + y^2 + z^2);
 
-unitVector = u
+unitVector = u;
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%  Part 2: Hello World %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -295,9 +298,8 @@ unitVector = u
 
 %%% Enter the code for your program below this line
 
-
-
-
+hi = input('Yo: ');
+    fprintf('Hello world!\n', hi);
 
 %%%%% When you have completed everything, type the following two commands
 %%%%% (without comments) into your command window. 
